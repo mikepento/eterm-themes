@@ -1,0 +1,10 @@
+This is not so much a visual theme as it is a hack on the menus and settings to
+be kinda user friendly to people who prefer console based irc clients. I use
+epic4 with axur2k theme available @ http://axur.hell.com.br/download.htm
+It has lots of nice features like the ability to set a default bgimage dir. You
+then put images named after a channel (i.e. #debian.ppm, or #slashdot.ppm) and
+it will automagically load that image when you change to a window with that
+channel. And if you're an op, you definitely need to be using axur IMHO.
+
+Hope you like it.
+you can find me as lamer on irc.openprojects.net:#debian\#slashdot
