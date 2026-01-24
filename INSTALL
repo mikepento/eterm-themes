@@ -1,0 +1,35 @@
+1. REQUIREMENTS
+=================
+
+	* Eterm 0.9.6
+
+2. ARCH INSTALL
+=================
+
+	The easiest way to install eterm-themes on Arch Linux is via the Arch User Repositories (AUR).
+
+	Using `yay` or your AUR helper of choice, do the following:
+
+	yay -S eterm-themes
+
+	However, if you have cloned this repository from github, you can still install eterm-themes from the Arch AUR by doing the following:
+
+	cd eterm-themes/_archlinux
+	makepkg -si
+
+3. ARCH UNINSTALL
+=================
+
+	To remove the package:
+
+	yay -Rsu eterm-themes
+
+3. MANUAL INSTALL
+=================
+
+	To manually install the themes, do the following:
+
+	cd eterm-themes
+	mkdir -p /usr/share/Eterm/themes
+	cp -rv --preserve=mode themes/* /usr/share/Eterm/themes/
+

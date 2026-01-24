@@ -1,0 +1,22 @@
+# Maintainer: Mike Pento <mjpento@gmail.com>
+
+pkgname=eterm-themes
+pkgver=0.9.6
+pkgrel=1
+pkgdesc="Themes for Eterm, the Enlightened terminal emulator."
+arch=('any')
+url="https://github.com/mikepento/eterm-themes"
+license=('AGPL-3.0-or-later')
+depends=('eterm')
+options+=('!debug')
+source=(https://github.com/mikepento/eterm-themes/archive/refs/tags/v${pkgver}-${pkgrel}.tar.gz)
+md5sums=('d4375f1bda517117a22a5c96d260748c')
+
+package() {
+	cd ${srcdir}-${pkgver}-${pkgrel}
+
+	mkdir -p ${pkgdir}/usr/share/Eterm/themes
+
+	cp -rv --preserve=mode themes/* ${pkgdir}/usr/share/Eterm/themes/
+}
+

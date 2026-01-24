@@ -1,0 +1,13 @@
+====================
+2024-01-24 - 0.9.6-2
+====================
+	* Added README.md
+	* Added COPYING
+	* Added INSTALL
+	* Added PKGBUILD
+	* Moved themes into `themes` folder
+
+====================
+2024-01-24 - 0.9.6-1
+====================
+	* Initial release.
