@@ -2,7 +2,7 @@
 
 pkgname=eterm-themes
 pkgver=0.9.6
-pkgrel=1
+pkgrel=2
 pkgdesc="Themes for Eterm, the Enlightened terminal emulator."
 arch=('any')
 url="https://github.com/mikepento/eterm-themes"
@@ -10,10 +10,10 @@ license=('AGPL-3.0-or-later')
 depends=('eterm')
 options+=('!debug')
 source=(https://github.com/mikepento/eterm-themes/archive/refs/tags/v${pkgver}-${pkgrel}.tar.gz)
-md5sums=('d4375f1bda517117a22a5c96d260748c')
+md5sums=('f6331b8a0b7a4f2a4525f050d53d397d')
 
 package() {
-	cd ${srcdir}-${pkgver}-${pkgrel}
+	cd ${srcdir}/${pkgname}-${pkgver}-${pkgrel}
 
 	mkdir -p ${pkgdir}/usr/share/Eterm/themes
 
