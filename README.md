@@ -14,7 +14,7 @@ Note that I have changed the version from `0.9.3` to `0.9.6` to better match up 
 
 I honestly have no idea what the licensing would be for these packages. They are very old, and I don't know if they are being maintained by anyone anymore.
 
-In light of this, I am applying the same [GNU Affero General Public License][gn-agpl-v3+] license here as is used by the Debian distribution archive.
+In light of this, I am applying the same [GNU Affero General Public License][gnu-agpl-v3+] license here as is used by the Debian distribution archive.
 
 ### Disclaimer
 
