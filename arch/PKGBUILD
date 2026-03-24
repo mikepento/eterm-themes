@@ -2,7 +2,7 @@
 
 pkgname=eterm-themes
 pkgver=0.9.6
-pkgrel=2
+pkgrel=3
 pkgdesc="Themes for Eterm, the Enlightened terminal emulator."
 arch=('any')
 url="https://github.com/mikepento/eterm-themes"
@@ -17,6 +17,6 @@ package() {
 
 	mkdir -p ${pkgdir}/usr/share/Eterm/themes
 
-	cp -rv --preserve=mode themes/* ${pkgdir}/usr/share/Eterm/themes/
+	cp -r themes/* ${pkgdir}/usr/share/Eterm/themes/
 }
 

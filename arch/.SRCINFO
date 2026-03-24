@@ -1,13 +1,13 @@
 pkgbase = eterm-themes
 	pkgdesc = Themes for Eterm, the Enlightened terminal emulator.
 	pkgver = 0.9.6
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/mikepento/eterm-themes
 	arch = any
 	license = AGPL-3.0-or-later
 	depends = eterm
 	options = !debug
-	source = https://github.com/mikepento/eterm-themes/archive/refs/tags/v0.9.6-2.tar.gz
+	source = https://github.com/mikepento/eterm-themes/archive/refs/tags/v0.9.6-3.tar.gz
 	md5sums = f6331b8a0b7a4f2a4525f050d53d397d
 
 pkgname = eterm-themes
